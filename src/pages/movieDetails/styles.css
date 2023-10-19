@@ -1,0 +1,48 @@
+@import url('https://fonts.cdnfonts.com/css/messe-muenchen');
+
+.movie-desc {
+  text-align: justify;
+}
+.container {
+  text-align: center;
+}
+
+
+.link_button {
+  margin-top: 5px;
+  padding: 0.7rem 3rem;
+  border: none;
+  border-radius: 15px;
+  color: #212121;
+  background-color: #ffffff;
+  font-weight: 1000;
+  font-size: 12 px;
+  cursor: pointer;
+  transition: all 250ms;
+}
+.link_button:hover{
+  transform: scale(1.1);
+}
+
+.img_movie {
+  width: 70%;
+  margin: 0 40%;
+  border-radius: 10%;
+}
+
+.descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 30%;
+}
+.descricao h4 {
+  font-size: 24px;
+}
+.descricao p {
+  text-indent: 30px;
+}
+
+h1,h3 {
+  font-weight: bold;
+}
